@@ -1755,10 +1755,6 @@
 		(uuid "8df0cf40-8fc7-4167-a048-de6163506a97")
 	)
 	(no_connect
-		(at 109.22 96.52)
-		(uuid "94bd898c-87cd-4dbc-a1d4-19822b6be564")
-	)
-	(no_connect
 		(at 109.22 60.96)
 		(uuid "97f8f98a-c9a8-4f41-86e7-f8c2e2ae41ea")
 	)
@@ -1907,6 +1903,16 @@
 			(type default)
 		)
 		(uuid "3dfc161f-4e6f-49a0-a634-431a694d4aa8")
+	)
+	(wire
+		(pts
+			(xy 149.86 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429f809c-7ab7-4241-b7e6-56243a40faa8")
 	)
 	(wire
 		(pts
@@ -2070,6 +2076,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9160f5a0-382b-4cea-a449-7cc3b0cc76f1")
+	)
+	(wire
+		(pts
+			(xy 93.726 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99157de7-1c8c-4037-9579-eb9b228bac46")
+	)
+	(wire
+		(pts
 			(xy 109.22 93.98) (xy 115.57 93.98)
 		)
 		(stroke
@@ -2147,16 +2173,6 @@
 			(type default)
 		)
 		(uuid "be5cbc68-7b89-4739-a29e-3f387a95c721")
-	)
-	(wire
-		(pts
-			(xy 96.52 121.92) (xy 102.87 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c281b48d-642c-4280-9bb0-fb0832b05f21")
 	)
 	(wire
 		(pts
@@ -2498,6 +2514,16 @@
 		)
 		(uuid "6e6aab53-99e9-41df-ae9d-612ec0b0094d")
 	)
+	(label "DeployPWR"
+		(at 93.726 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "807567e7-d0b4-4182-a22b-167057a95187")
+	)
 	(label "PI_MISO"
 		(at 83.82 73.66 180)
 		(effects
@@ -2527,6 +2553,26 @@
 			(justify right bottom)
 		)
 		(uuid "9149ece2-302e-412d-b77a-b77bfea003a7")
+	)
+	(label "Nuke 1"
+		(at 115.57 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b1eaf5-a4ea-4bd6-81ab-03b7db5246a8")
+	)
+	(label "Nuke 1"
+		(at 149.86 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98464714-2992-4adc-ac58-afda0b9be3b2")
 	)
 	(label "Nuke 0"
 		(at 115.57 91.44 0)
@@ -2567,6 +2613,16 @@
 			(justify left bottom)
 		)
 		(uuid "b34610b4-6731-41f1-a3b3-460d4b1dd1fc")
+	)
+	(label "DeployPWR"
+		(at 149.86 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4201699-852a-4a61-91eb-dbff2b1941ca")
 	)
 	(label "Cont0"
 		(at 149.86 127 180)
@@ -2677,94 +2733,6 @@
 			(justify right bottom)
 		)
 		(uuid "eb4408fd-6af2-46a9-8a45-b1c5b53662a5")
-	)
-	(hierarchical_label "5.5V"
-		(shape output)
-		(at 100.33 146.05 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91e2aa04-7761-44a3-be54-0f12fd45c8ee")
-	)
-	(hierarchical_label "DeployPWR"
-		(shape input)
-		(at 149.86 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b80bd4cf-38e0-4b48-93d8-6e966c57016b")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 96.52 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41769c43-4e79-45b3-8301-14d10d486131")
-		(property "Reference" "#PWR014"
-			(at 96.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 96.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14c2094c-e53a-4ee7-881e-e5cd58f05585")
-		)
-		(instances
-			(project ""
-				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2965,6 +2933,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 100.33 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79dc8ec8-aa81-405b-a5a5-fec305d72c41")
+		(property "Reference" "#PWR035"
+			(at 100.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5.5V"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39839b02-a373-40d2-ba7e-16c5bce2c171")
+		)
+		(instances
+			(project "Pi-based PCB"
+				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 119.38 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3021,7 +3055,7 @@
 			(uuid "adaf2cc4-38b9-4983-96d4-2fb27026dea9")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f"
 					(reference "#PWR015")
 					(unit 1)
@@ -3203,7 +3237,7 @@
 			(uuid "66d31c5b-6126-482a-ac24-e2580273e4e8")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f"
 					(reference "J3")
 					(unit 1)
@@ -3335,7 +3369,7 @@
 			(uuid "e4904e78-ff43-4f44-926d-92033b759353")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f"
 					(reference "#PWR023")
 					(unit 1)
@@ -3545,9 +3579,9 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" output
-			(at 102.87 121.92 180)
-			(uuid "06f35d89-5c4d-4847-a872-df1e1d8bca18")
+		(pin "DeployPWR" output
+			(at 102.87 127 180)
+			(uuid "d1201469-0de0-4807-a50f-1a9d8cbbe0a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,6 +3736,16 @@
 		(pin "Nuke 0" input
 			(at 157.48 132.08 180)
 			(uuid "ecf97bb3-28ea-429f-bac2-e0650ff6952b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Nuke 1" input
+			(at 157.48 134.62 180)
+			(uuid "a47d0b7d-eb5f-4398-9f96-9a760222d3c4")
 			(effects
 				(font
 					(size 1.27 1.27)

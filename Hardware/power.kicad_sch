@@ -1645,6 +1645,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1919,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.736 73.66) (xy 173.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d41239e-cfb8-46fc-816c-ac842cac9dfb")
+	)
+	(wire
+		(pts
 			(xy 104.14 40.64) (xy 104.14 43.18)
 		)
 		(stroke
@@ -2079,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 29.21) (xy 205.74 29.21)
+			(xy 200.66 29.21) (xy 207.518 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2229,6 +2364,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.736 73.66) (xy 173.736 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b529538-7738-4562-8640-d35e6252698d")
+	)
+	(wire
+		(pts
 			(xy 158.75 68.58) (xy 162.56 68.58)
 		)
 		(stroke
@@ -2346,16 +2491,6 @@
 			(type default)
 		)
 		(uuid "9cc7debc-8e42-4e49-8efc-1b8a717ce3af")
-	)
-	(wire
-		(pts
-			(xy 173.736 76.708) (xy 173.736 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6822399-3a97-46c4-85ca-7a639ddfffd7")
 	)
 	(wire
 		(pts
@@ -2667,28 +2802,6 @@
 		)
 		(uuid "fac9349a-ae63-4721-b668-ba9beddb1bb3")
 	)
-	(hierarchical_label "5.5V"
-		(shape output)
-		(at 205.74 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d557cca-0b27-409f-8122-21cc83634e4f")
-	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 173.736 76.708 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4563a4e-fe75-437f-94ed-863d36b8184a")
-	)
 	(hierarchical_label "DeployPWR"
 		(shape output)
 		(at 40.64 19.05 90)
@@ -2762,6 +2875,72 @@
 			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 207.518 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "296c97ca-146f-4eab-8ac9-b9bae77434e6")
+		(property "Reference" "#PWR033"
+			(at 207.518 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5.5V"
+			(at 207.518 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.518 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.518 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 207.518 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9615ba-3221-4b80-ad03-dd33e58bc96e")
+		)
+		(instances
+			(project "Pi-based PCB"
+				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3583,7 @@
 			(uuid "b7c5f50c-a6d4-426b-9d65-54dd64e26ab9")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
 					(reference "U4")
 					(unit 1)
@@ -3606,9 +3785,75 @@
 			(uuid "ac046129-116a-4d08-9780-853cc6dc7ae1")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fcc3554-e395-40a6-97f1-6cc892b5d3e9")
+		(property "Reference" "#PWR031"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bc558d-35af-45d7-89d2-4e26512d947e")
+		)
+		(instances
+			(project "Pi-based PCB"
+				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4732,7 @@
 			(uuid "aac38d1e-58a2-4e1e-bb87-b807f92b2256")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3ae90f15-a57a-41c5-834b-f728dd5efad8"
 					(reference "J1")
 					(unit 1)

@@ -1022,7 +1022,7 @@
 			(uuid "81db2966-46e0-4fa2-9434-2d7b82fe18a2")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "C7")
 					(unit 1)
@@ -1088,7 +1088,7 @@
 			(uuid "69ac55e4-52a8-488b-ad22-cc696d6a3467")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "#PWR022")
 					(unit 1)
@@ -1154,7 +1154,7 @@
 			(uuid "d760107d-35b6-464e-940f-33ee8a33f87b")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "#PWR020")
 					(unit 1)
@@ -1222,7 +1222,7 @@
 			(uuid "b6a117f7-0014-439b-8015-02ee23d04546")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "C6")
 					(unit 1)
@@ -1358,7 +1358,7 @@
 			(uuid "bd2c03b0-a0b9-43a4-b81b-333762a4c85d")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "#PWR024")
 					(unit 1)
@@ -1424,7 +1424,7 @@
 			(uuid "1f40d1ad-1f38-4a86-9986-0afbd930c8ee")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "#PWR021")
 					(unit 1)
@@ -1492,7 +1492,7 @@
 			(uuid "a8906497-509f-479d-b45b-8603fa1bcdc4")
 		)
 		(instances
-			(project ""
+			(project "Pi-based PCB"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/4569c248-8a44-4db3-b2ae-2ad0733be142"
 					(reference "C8")
 					(unit 1)
