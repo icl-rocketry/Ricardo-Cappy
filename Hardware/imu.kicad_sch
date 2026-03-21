@@ -1791,7 +1791,7 @@
 			(uuid "29356e85-208b-438f-b1a5-a75374b30e47")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C23")
 					(unit 1)
@@ -1857,7 +1857,7 @@
 			(uuid "0415b6d4-a67e-4c61-89d4-58fe88578b8a")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR078")
 					(unit 1)
@@ -1923,7 +1923,7 @@
 			(uuid "34efc6fa-94ed-4fb5-8361-59a661259109")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR076")
 					(unit 1)
@@ -1993,7 +1993,7 @@
 			(uuid "49b99861-f7aa-4fa6-bbee-fec82b5a52fd")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C27")
 					(unit 1)
@@ -2132,7 +2132,7 @@
 			(uuid "cc25e9e1-7a87-49af-b1ec-2e203755c311")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "U7")
 					(unit 1)
@@ -2198,7 +2198,7 @@
 			(uuid "bd8cbd77-bab5-4904-97d3-098d529355fe")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR075")
 					(unit 1)
@@ -2264,7 +2264,7 @@
 			(uuid "c513b08d-0839-4173-b9a3-234549740ae1")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR074")
 					(unit 1)
@@ -2334,7 +2334,7 @@
 			(uuid "51500fe3-e1aa-4ab1-9380-2598a2e07666")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C28")
 					(unit 1)
@@ -2400,7 +2400,7 @@
 			(uuid "bd1c994f-d988-4661-9b03-46804eb1ac16")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR073")
 					(unit 1)
@@ -2466,7 +2466,7 @@
 			(uuid "3778a595-02dc-4fbb-bdd1-e6a1a4f7a839")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR072")
 					(unit 1)
@@ -2536,7 +2536,7 @@
 			(uuid "969b87e0-cad9-429a-81ac-e8046dab5d91")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C25")
 					(unit 1)
@@ -2602,7 +2602,7 @@
 			(uuid "d5d64299-4ed0-4d50-8a28-c119c813d2a2")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR077")
 					(unit 1)
@@ -2754,7 +2754,7 @@
 			(uuid "5404bccd-ea7a-448d-b827-acdf5bb597e3")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "U8")
 					(unit 1)
@@ -2823,7 +2823,7 @@
 			(uuid "53d0639e-43f5-464c-b229-d17cd3a2af77")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C26")
 					(unit 1)
@@ -2893,7 +2893,7 @@
 			(uuid "c72ae221-b022-4dab-b8bc-3d45a09217ec")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "C24")
 					(unit 1)
@@ -2959,7 +2959,7 @@
 			(uuid "99d00e35-1ba2-439e-bfec-2b7268473d18")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/cc2cb808-d873-4038-b806-3fc421b6c929"
 					(reference "#PWR071")
 					(unit 1)

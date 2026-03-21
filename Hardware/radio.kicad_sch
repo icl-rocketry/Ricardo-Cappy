@@ -1242,7 +1242,7 @@
 			(uuid "354bf53a-870b-4991-9a47-75ba1fb97dea")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "#PWR08")
 					(unit 1)
@@ -1312,7 +1312,7 @@
 			(uuid "0d85a9bb-4b33-496b-92cc-4b61e2e17ecb")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "C2")
 					(unit 1)
@@ -1377,7 +1377,7 @@
 			(uuid "65a60613-f89f-46b9-a253-819a46ed39e7")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "#PWR0129")
 					(unit 1)
@@ -1442,7 +1442,7 @@
 			(uuid "ab8aad5e-1c82-4ddb-a57a-ece8f325d337")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "#PWR06")
 					(unit 1)
@@ -1511,7 +1511,7 @@
 			(uuid "5767be0a-ca40-48e7-a4d8-62faa6df5796")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "J11")
 					(unit 1)
@@ -1576,7 +1576,7 @@
 			(uuid "8c2f101b-ee07-43b1-b78f-2ca1c1317ade")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "#PWR07")
 					(unit 1)
@@ -1685,7 +1685,7 @@
 			(uuid "32fbffed-534d-4a98-b272-df843ef94f60")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "U2")
 					(unit 1)
@@ -1754,7 +1754,7 @@
 			(uuid "4b0803e5-a1da-4102-a00c-36cf826b0d2b")
 		)
 		(instances
-			(project "Pi-based PCB"
+			(project "Ricardo-Cappy"
 				(path "/e4035b22-64c9-4a42-9837-ade8aec3882f/3285bbb2-556d-477f-86ee-ab84fce2bcd4"
 					(reference "C3")
 					(unit 1)
